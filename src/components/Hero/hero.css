@@ -1,0 +1,126 @@
+.hero{
+    height: 92vh;
+    overflow: hidden;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+}
+
+.hero-heading{
+    /* font-size: 56px; */
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.hero-description{
+    /* font-size: 17px; */
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+.hero-left-btns{
+    /* margin-top: 15px; */
+    margin-top: .5rem;
+    display: flex;
+}
+
+.hero-left-secondary-btn{
+    margin-left: 25px;
+}
+
+.hero-left-infoStats{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px 0px;
+}
+
+.hero-infoStats-infoItem{
+   margin-right: 24px;
+   flex-direction: column;
+}
+
+.hero-infoItem-count{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.hero-infoItem-label{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero-right{
+    display: flex;
+    flex: 1;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.hero-right-diamond{
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+
+.hero-right-diamond-item{
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+    margin: 6px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    border: 3px solid var(--white);
+    border-radius: 12px;
+}
+
+.hero-right-diamond-img{
+    /* height: 185px; */
+    height: 12rem;
+    object-fit: contain;
+    display: block;
+}
+
+.hero-right-bg-blob{
+    height: 350px;
+    width: 350px;
+    background-color: var(--bg-blob);
+    filter: blur(160.58px);
+    position: absolute;
+    z-index: -99;
+    left: 30%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+/* 
+
+@media(max-width: 900px )
+{
+    .hero-heading{
+        font-size: 2vw;
+        color: aqua;
+        line-height: 38px;
+    }
+} */
+
+/* 
+@media(max-width: 1155px){
+    .hero-right-diamond-img{
+        height: 9rem;
+    }
+    .hero-right-diamond-item{
+        height: 8rem;
+        width: 8rem;
+    }
+    .hero-heading{
+        font-size: 5vw;
+        color: yellow;
+        line-height: 2.7rem;
+    }
+} */
+

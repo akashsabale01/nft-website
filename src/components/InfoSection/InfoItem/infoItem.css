@@ -1,0 +1,17 @@
+.info-item{
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 28px;
+    width:  30%;
+}
+
+.info-item-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 18px;
+}
+
+.info-description{
+    font-size: 18px;
+    margin-top: 18px;
+}

@@ -1,0 +1,23 @@
+.button{
+    font-size: 16px;
+    padding: 11px 37px;
+    font-weight: 600;
+    border-radius: 60px;
+    width: max-content;
+    text-transform: uppercase;
+}
+
+.primary-btn{
+    color:var(--white);
+    background-color: var(--btn-bg);
+}
+.primary-btn:hover{
+    opacity: 0.8;
+}
+
+.secondary-btn{
+    border: 2px solid var(--white);
+}
+.secondary-btn:hover{
+    border: 2px solid var(--btn-bg);
+}
